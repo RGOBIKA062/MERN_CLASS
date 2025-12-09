@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        setInterval(()=> //execute repeatedly after the given time
+        {
+            console.log("Hey thsis is set interval function"); 
+        },1000); // first parameer is arrow function and second is time in milliseconds
+          setTimeout(()=> //execute only once after the given time
+        {
+            console.log("Hey this is set interval function"); 
+        },1000); // first parameer is arrow function and second is time in milliseconds
+        function add() {
+           console.log(12+53);
+        }
+        function add() {
+           console.log(12+53);
+        }
+        add();
+        let a =10;
+        console.log("Hello");
+        console.log(a);
+        // alert("Check your msg");
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let myPromise=new Promise((resolve,reject)=>{
+            let a =0;
+            if(a>5){
+                console.log("Promise resolved");
+            }else{
+                console.log("Promise rejected");
+            }
+        });
+      myPromise
+      .then((res)=>{console.log(res);})
+      .catch((err)=>{console.log(err);
+      });
+
+    </script>
+</body>
+</html>
